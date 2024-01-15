@@ -332,6 +332,34 @@ header{
 }
 /* .......................End About Section......................... */
 
+/* Estilização da seção de testemunhos */
+#Testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Centraliza o texto dentro da seção */
+    min-height: 100vh; /* Opcional: para fazer a seção ocupar no mínimo a altura total da tela */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.container.testimonial-container {
+    width: 100%; /* Define a largura do container */
+    max-width: 800px; /* Opcional: define uma largura máxima para o container */
+    margin: auto; /* Centraliza o container */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Altura automática baseada no conteúdo interno */
+}
+
+.instagram-media {
+    max-width: 100%; /* Permite que a mídia ocupe toda a largura do slide */
+}
+
 
 /* .......................Start Skills Section......................... */
 .skills-container{
